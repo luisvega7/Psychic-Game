@@ -25,7 +25,6 @@ document.onkeyup = function (event) {
     }
 
     if (userGuess != computerGuess) {
-      wins++;
       numGuesses--;
       guessChoices.push(userGuess);
     }
